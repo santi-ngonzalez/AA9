@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cátedra Paradigmas 3 - Vista Tabla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">Cátedra Paradigmas 3</div>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="listado_tabla.html" class="active">Vista Tabla</a>
+                <a href="listado_box.html">Vista Tarjetas</a>
+                <a href="comprar.html">Comprar</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="card">
+            <h1>Catálogo General (Vista Tabular)</h1>
+            <hr class="divider">
+            <p>
+                La siguiente estructura utiliza la etiqueta semántica <code>&lt;table&gt;</code> para organizar
+                los productos de manera formal. En pantallas pequeñas, se habilita una barra de desplazamiento
+                horizontal para evitar que se desborde la interfaz:
+            </p>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nombre del Producto</th>
+                            <th>Categoría</th>
+                            <th>Precio Unitario</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#001</td>
+                            <td>Placa de Video RX 7800 XT</td>
+                            <td>Hardware</td>
+                            <td>$550.00</td>
+                            <td><a href="detalle-placa.html">Ver Detalle</a></td>
+                        </tr>
+                        <tr>
+                            <td>#002</td>
+                            <td>Procesador AMD Ryzen 7 7800X3D</td>
+                            <td>Hardware</td>
+                            <td>$420.00</td>
+                            <td><a href="detalle-procesador.html">Ver Detalle</a></td>
+                        </tr>
+                        <tr>
+                            <td>#003</td>
+                            <td>Memoria RAM DDR5 32GB (2x16GB)</td>
+                            <td>Hardware</td>
+                            <td>$140.00</td>
+                            <td><a href="detalle-ram.html">Ver Detalle</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Universidad de la Cuenca del Plata. Paradigmas y Lenguajes de Programación 3.</p>
+    </footer>
+
+</body>
+</html>
